@@ -7,7 +7,7 @@ class Pages extends BaseController
     public function index()
     {
         $data = [
-            'title'=> 'Home | Test'
+            'title' => 'Home | Test'
         ];
         return view('pages/home', $data);
     }
@@ -15,7 +15,7 @@ class Pages extends BaseController
     public function about()
     {
         $data = [
-            'title'=> 'About Me'
+            'title' => 'About Me'
         ];
         return view('pages/about', $data);
     }
@@ -23,7 +23,7 @@ class Pages extends BaseController
     public function contact()
     {
         $data = [
-            'title'=> 'My Contact'
+            'title' => 'My Contact'
         ];
         return view('pages/contact', $data);
     }
